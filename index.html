@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <section id="banner">
+        <img src="images/logo-removebg-preview.png" class="logo">
+<div class="banner-text">
+    <h1>Hair Studio</h1>
+    <p>Style Your Hair As U Want</p>
+    <div class="banner-button">
+        <a href="#"><span></span>Find Out</a>
+        <a href="#"><span></span>Read More</a>
+    </div>
+
+
+</div>
+    </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Meet Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="images/images-removebg-preview.png" id="menu">
+
+    </div>
+<script>
+
+    var menubtn = document.getElementById("menubtn")
+    var sidenav = document.getElementById("sidenav")
+    var menu = document.getElementById("menu")
+    sidenav.style.right == "-250px";
+      
+   menubtn.onclick = function(){
+    if(sidenav.style.right == "-250px"){
+   sidenav.style.right = "0";
+   menu.src = "images/icon.png";
+
+   }
+   else{
+    sidenav.style.right = "-250px";
+    menu.src = "images/menu.png";
+   }
+   } 
+    </script>
     
 </body>
 </html>
