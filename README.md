@@ -28,4 +28,4 @@ ss of the website:<img width="1366" height="768" alt="Screenshot (9)" src="https
   
 
 demo of the website:
-https://barber-hut.netlify.app/
+https://barber-shop-websitee.netlify.app/
