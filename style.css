@@ -289,3 +289,133 @@ border-radius:3px;
         flex-basis:100%;
     }
   }
+  .feature-box{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    text-align:center;
+  }
+  .features{
+    flex-basis:50%;
+  }
+  .features-img{
+    flex-basis:50%;
+    margin:auto;
+     
+  }
+  .features-img img{
+    width:70%;
+    border-radius:10px;
+   
+  }
+  .features h1{
+    text-align:left;
+    margin-bottom:10px;
+    font-weight:100;
+    color:#009688;
+  }
+  .features-desc{
+    display:flex;
+    align-items:center;
+    margin-bottom:40px;
+  }
+  .feature-icon .fa{
+    width:50px;
+    height:50px;
+    font-size:30px;
+    line-height:50px; 
+    border-radius:8px;
+    color:#009688;
+    border:1px solid aqua;
+  }
+  .feature-text p{
+    padding:0 20px;
+    text-align:initial;
+  }
+  @media screen and (max-width:770px){
+    .title-text h1{
+        font-size:35px;
+    }
+    .features{
+        flex-basis:100%;
+    }
+    .features-img{
+        flex-basis:100%;
+
+    }
+    .features-img img{
+        width:100%;
+    }
+  }
+  #footer{
+    padding:100px 0 20px;
+    background:#efefef;
+    position:relative;
+  }
+  .footer-row{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+  }
+  .footer-left, .footer-right{
+    flex-basis:45%;
+    padding:10px;
+    margin-bottom:20px;
+
+  }
+  .footer-right{
+    text-align:right;
+  }
+  .footer-row h1{
+    margin:10px 0;
+
+  }
+  .footer-row p{
+    line-height:35px;
+  }
+  .footer-left .fa,.footer-right .fa{
+    font-size:20px;
+    color:#009688;
+    margin:10px;
+  }
+  .footer-img{
+    max-width:370px;
+    opacity:0.1;
+    position:absolute;
+    left:50%;
+    top:35%;
+    transform: translate(-50%,-50%);
+  }
+  .soc-link{
+    text-align:center;
+  }
+  .soc-link .fa{
+    height:40px;
+    width:40px;
+    font-size:20px;
+    line-height:40px;
+    border:1px solid #009688;
+    margin:40px 5px 0;
+    color:#009688;
+    cursor:pointer;
+    transition:.5s;
+  }
+  .soc-link .fa:hover{
+    background:#009688;
+    color:#fff;
+    transform:translateY(-7px);
+
+  }
+  @media screen and (max-width:770px){
+    .footer-left, .footer-right{
+      flex-basis:100%;
+      font-size:14px;
+    }
+    .footer-img{
+      top:25%;
+    }
+  }
