@@ -12,9 +12,9 @@ it is a website about barber-studio features stylish designs service details inf
 
 
 Technology Used are:    
-  -css
-  -html
-  -js
+  .css
+  .html
+  .js
 
 
 
